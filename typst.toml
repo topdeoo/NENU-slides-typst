@@ -1,0 +1,19 @@
+[package]
+name = "NENU-Slides"
+version = "1.0.0"
+entrypoint = "lib.typ"
+authors = [" <virgiling7@gmail.com>"]
+license = "Unlicense"
+description = "A Typst NENU-Slide Template (Beamer Style)"
+homepage = ""
+repository = "https://github.com/topdeoo/NENU-slides-typst"
+keywords = ["touying", "Slide", "Template", "Beamer", "Typst"]
+compiler = "0.12.0"
+exclude = [".vscode"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+
+[tool.utpm]
+namespace = "local"
